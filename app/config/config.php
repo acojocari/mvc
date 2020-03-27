@@ -1,13 +1,15 @@
 <?php
 // DB Params
 define('DB_HOST','localhost');
-define('DB_USER','_YOUR_USER_');
-define('DB_PASS','_YOUR_PASS_');
-define('DB_NAME','_YOUR_DBNAME_');
+define('DB_USER','root');
+define('DB_PASS','ybBb3fq7YvN1zIll');
+define('DB_NAME','mvc');
 
 // App Root
 define('APPROOT',dirname(dirname(__FILE__)));
 // URL Root
-define('URLROOT','_YOUR_URL_');
+define('URLROOT','http://localhost/mvc');
 // Site name
-define("SITENAME",'_YOUR_SITENAME_');
+define("SITENAME",'MVC');
+// App version
+define("APPVERSION",'1.0.0');
