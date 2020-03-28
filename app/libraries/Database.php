@@ -22,7 +22,7 @@ class Database{
         // Set DSN
         $dsn = 'mysql:host='.$this->host.';dbname='. $this->dbname;
         $options = array(
-            PDO::ATTR_PERSISTENT => true,
+            PDO::ATTR_PERSISTENT => TRUE,
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         );
 
@@ -38,7 +38,7 @@ class Database{
 
     //prepare statement with query
     public function query($sql){
-        $this->stmt = $this ->dbh->prepare(($sql));
+        $this->stmt = $this ->dbh->prepare($sql);
     }
 
     //bind values
@@ -55,7 +55,7 @@ class Database{
                     $type = PDO::PARAM_NULL;
                     break;
                 default:
-                    $type = PDO::PARAM_NULL;
+                    $type = PDO::PARAM_STR;
             }
         }
 
@@ -75,7 +75,9 @@ class Database{
     // Get single record as object
     public function single(){
         $this->execute();
-        return $this->stmt->fetch(PDO::FETCH_OBJ);
+
+        $result = $this->stmt->fetch(PDO::FETCH_OBJ);
+        return $result;
     }
 
     //Get row count
