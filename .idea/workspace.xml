@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6ebd4c-f3fb-4daa-9831-ab16dea0b98b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/users/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/inc/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/inc/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/users/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +21,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/index.php">
+        <entry file="file://$PROJECT_DIR$/app/libraries/Core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="-7">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="269">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
             </state>
           </provider>
         </entry>
@@ -42,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="148" selection-start-line="17" selection-start-column="148" selection-end-line="17" selection-end-column="148" />
+            <state relative-caret-position="255">
+              <caret line="17" column="139" selection-start-line="17" selection-start-column="139" selection-end-line="17" selection-end-column="139" />
             </state>
           </provider>
         </entry>
@@ -51,17 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="136" selection-start-line="10" selection-start-column="129" selection-end-line="10" selection-end-column="136" />
+            <state relative-caret-position="578">
+              <caret line="34" column="61" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/inc/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="3" column="92" lean-forward="true" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
+            <state relative-caret-position="-51">
+              <caret line="3" column="92" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -116,10 +124,10 @@
         <option value="$PROJECT_DIR$/app/controllers/Pages.php" />
         <option value="$PROJECT_DIR$/app/config/config.php" />
         <option value="$PROJECT_DIR$/app/views/pages/about.php" />
-        <option value="$PROJECT_DIR$/app/controllers/users.php" />
-        <option value="$PROJECT_DIR$/app/views/users/register.php" />
-        <option value="$PROJECT_DIR$/app/views/users/login.php" />
         <option value="$PROJECT_DIR$/app/views/inc/navbar.php" />
+        <option value="$PROJECT_DIR$/app/views/users/register.php" />
+        <option value="$PROJECT_DIR$/app/controllers/users.php" />
+        <option value="$PROJECT_DIR$/app/views/users/login.php" />
       </list>
     </option>
   </component>
@@ -215,6 +223,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -254,7 +263,7 @@
       <workItem from="1585256377529" duration="4326000" />
       <workItem from="1585293160590" duration="2749000" />
       <workItem from="1585297748840" duration="3762000" />
-      <workItem from="1585332924754" duration="7502000" />
+      <workItem from="1585332924754" duration="9924000" />
     </task>
     <task id="LOCAL-00001" summary="Header &amp; Footer includes">
       <created>1585260617097</created>
@@ -291,11 +300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585381901627</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Form validation">
+      <created>1585386956179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585386956179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21065000" />
+    <option name="totallyTimeSpent" value="23487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -313,9 +329,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.27886322" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49959514" visible="true" weight="0.22557727" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" visible="true" weight="0.22557727" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -325,6 +341,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -372,7 +391,8 @@
     <MESSAGE value="Clean Up" />
     <MESSAGE value="Bootstrap &amp; Navbar" />
     <MESSAGE value="Creation the users controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation the users controller" />
+    <MESSAGE value="Form validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form validation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
@@ -387,13 +407,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libraries/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -464,10 +477,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.php">
+    <entry file="file://$PROJECT_DIR$/app/views/inc/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="48" />
+        <state relative-caret-position="-51">
+          <caret line="3" column="92" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -481,31 +494,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users.php">
+    <entry file="file://$PROJECT_DIR$/app/libraries/Core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="-7">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="136" selection-start-line="10" selection-start-column="129" selection-end-line="10" selection-end-column="136" />
+        <state relative-caret-position="578">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="148" selection-start-line="17" selection-start-column="148" selection-end-line="17" selection-end-column="148" />
+        <state relative-caret-position="255">
+          <caret line="17" column="139" selection-start-line="17" selection-start-column="139" selection-end-line="17" selection-end-column="139" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inc/navbar.php">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="3" column="92" lean-forward="true" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
     </entry>
