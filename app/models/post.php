@@ -21,4 +21,19 @@ ORDER BY posts.created_at DESC ');
 
         return $results;
     }
+
+    public function addPost($data){
+        $this->db->query('INSERT INTO posts (title, user_id, body) VALUES (:title,:user_id,:body)');
+        //Bind values
+        $this->db->bind(':title',$data['title']);
+        $this->db->bind(':user_id',$data['user_id']);
+        $this->db->bind(':body',$data['body']);
+
+        //Execute
+        if($this->db->execute()){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
