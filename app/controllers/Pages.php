@@ -11,8 +11,8 @@ class Pages extends Controller {
         }
 
         $data=[
-            'title'=>"MVC",
-            'description'=>'Simple social network buil on the MVC PHP framework'
+            'title'=>"MVC project",
+            'description'=>'Simple social network build on the MVC PHP framework'
         ];
 
         $this->view('pages/index',$data);
